@@ -1,3 +1,21 @@
+.search-bar{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 .thumbnail{
     width: 300px;
+    display: block;
+}
+
+.video-title{
+    width: 220px;
+}
+
+.video-author,.video-desc{
+    width: 200px;
+    font-size: 14px;
+    line-height: 5px;
+    color: rgb(108, 108, 108);
+    font-family: Roboto;
 }
