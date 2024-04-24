@@ -1,11 +1,12 @@
 .search-bar{
     font-size: 20px;
     margin-left: 10px;
+    display: block;
 }
 
 .thumbnail{
     width: 300px;
-    display: block;
+    
 }
 
 .video-title{
@@ -18,4 +19,11 @@
     line-height: 5px;
     color: rgb(108, 108, 108);
     font-family: Roboto;
+}
+
+.div-container{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
 }
