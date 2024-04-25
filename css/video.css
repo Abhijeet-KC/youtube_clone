@@ -1,15 +1,3 @@
-p{
-    font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.search-bar{
-    font-size: 20px;
-    margin-left: 10px;
-    display: block;
-}
-
 .thumbnail{
     width: 100%;
     margin-bottom: 10px;    
