@@ -1,5 +1,25 @@
-.search-bar{
-    font-size: 20px;
-    margin-left: 10px;
-    display: block;
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftpart{
+    background-color: lightblue;
+    width: 150px;
+}
+
+.middlepart{
+    background-color: lightpink;
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+
+.rightpart{
+    background-color: lightblue;
+    width: 200px;
 }
