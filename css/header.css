@@ -43,6 +43,7 @@
     border-radius: 1px;
     box-shadow: inset  1px 2px 5px rgba(0,0,0,0.06);
     border-color: rgb(223, 219, 219);
+    width: 0;
 }
 
 .search-bar::placeholder{
@@ -61,7 +62,10 @@
     border-color: rgb(223, 219, 219);
     background-color: rgb(247, 244, 244);
 }
-    
+
+.search-button:idle{
+    border-color: rgb(223, 219, 219);
+}
 .search-button:active {
     border-color: blue;
 }
@@ -83,7 +87,34 @@
     margin-top: 4px;
 }
 .rightpart{
-    background-color: lightblue;
-    width: 200px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
 }
 
+.upload-icon{
+    height: 25px;
+    margin-top: 4px;
+    
+}
+
+.apps-icon{
+    height: 25px;
+    margin-top: 4px;
+    
+}
+
+.notifications-icon{
+    height: 25px;
+    margin-top: 4px;
+    
+}
+
+.profile-pic{
+    height: 30px;
+    margin-top: 4px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
