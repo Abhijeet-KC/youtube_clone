@@ -6,7 +6,6 @@
 }
 
 .leftpart{
-    background-color: lightblue;
     display: flex;
     align-items: center;
     
@@ -25,7 +24,7 @@
  }
 
 .middlepart{
-    background-color: lightpink;
+
     display: flex;
     flex: 1;
     margin-left: 70px;
@@ -36,8 +35,14 @@
 
 .search-bar{
     flex: 1;
-    height: 34px;
+    height: 36px;
     padding-left: 15px;
+    font: 16px Roboto, Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1px;
+    box-shadow: inset  1px 2px 5px rgba(0,0,0,0.06);
+    border-color: rgb(223, 219, 219);
 }
 
 .search-bar::placeholder{
@@ -47,8 +52,23 @@
 
 .search-button{
     height: 40px;
-    width: 40px;
+    width: 70px;
     margin-right: 10px;
+    margin-left: -1px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: rgb(223, 219, 219);
+    background-color: rgb(247, 244, 244);
+}
+    
+.search-button:active {
+    border-color: blue;
+}
+
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
 }
 
 .voice-button{
@@ -56,8 +76,12 @@
     width: 40px;
     border-radius: 50%;
     border: none;
+    background-color: rgba(245, 241, 241, 0.5);
 }
-
+.voice-icon{
+    height: 25px;
+    margin-top: 4px;
+}
 .rightpart{
     background-color: lightblue;
     width: 200px;
