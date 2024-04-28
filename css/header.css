@@ -68,23 +68,45 @@
     border-radius: 1px;
     border-color: rgb(223, 219, 219);
     background-color: rgb(247, 244, 244);
+    position: relative;
 }
 
-.search-button:idle{
-    border-color: rgb(223, 219, 219);
+.voice-button, .search-button, .apps, .notifications-button, .profile-button{
+    position: relative;
 }
-.search-button:active {
-    border-color: blue;
+
+.search-button .tooltip, .voice-button .tooltip, .upload-button .tooltip, .apps-button .tooltip, .notifications-button .tooltip, .profile-button .tooltip{
+
+    position: absolute;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    padding: 10px 4px 10px 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: roboto, arial;
+    top: 50px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-button:hover .tooltip, .voice-button:hover .tooltip, .upload-button:hover .tooltip, .apps-button:hover .tooltip, .notifications-button:hover .tooltip, .profile-button:hover .tooltip{
+    cursor: pointer;
+    opacity: 1;
 }
 
 .search-icon{
     height: 25px;
-    margin-top: 4px;
 }
 
 .voice-button{
+    display: flex;
     height: 40px;
     width: 40px;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     border: none;
     background-color: rgba(245, 241, 241, 0.5);
@@ -104,7 +126,7 @@
 }
 .notif-count{
     position: absolute;
-    top: 15px;
+    top: 6px;
     right: 58px;
     background-color: rgb(184, 29, 29);
     color: white;
