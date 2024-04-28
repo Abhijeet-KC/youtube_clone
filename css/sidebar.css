@@ -4,13 +4,15 @@
     bottom: 0;
     top: 55px;
     background-color: white;
-    width: 72px;    
+    width: 72px;  
+    z-index: 200;
+    padding-top: 5px;  
 }
 
 .sidebar-link{
     display: flex;
     flex: 1;
-    height: 76px;
+    height: 74px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -23,6 +25,7 @@
 
 .sidebar-link img{
     height: 24px;
+    margin-bottom: 6px;
 }
 
 .sidebar-text{
