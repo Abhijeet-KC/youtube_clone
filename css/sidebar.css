@@ -6,3 +6,28 @@
     background-color: white;
     width: 72px;    
 }
+
+.sidebar-link{
+    display: flex;
+    flex: 1;
+    height: 76px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer
+}
+
+.sidebar-link img{
+    height: 24px;
+}
+
+.sidebar-text{
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
